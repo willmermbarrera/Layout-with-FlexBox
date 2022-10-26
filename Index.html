@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Flexbox</title>
+    <link rel="stylesheet" href="resources/css/Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Layout with Flexbox</h1>
+    </header>
+
+    <div class='introduction'>
+        <h2>What is Flexbox?</h2>
+        <p>There are two important components to a flexbox layout: flex containers and flex items. A flex container is an element on a page that contains flex items. All direct child elements of a flex container are flex items. This distinction is important because some of the properties you will learn in this lesson apply to flex containers while others apply to flex items. <br><br>To designate an element as a flex container, set the element’s display property to flex or inline-flex</p>
+    </div>
+
+    <div class='display:flex'>
+        <h2>display: flex</h2>
+        <p>For an element to become a flex container, its display property must be set to flex.</p>
+        <div class='code-flex'>
+            <span>div.container {</span>
+            <br>
+            <span>&nbsp;&nbsp;</span>
+            <span>display: flex;</span>
+            <br>
+            <span>}</span>
+        </div>
+        <div class='example-flex'>
+            <h1>Display: Flex</h1>
+            <div class='container' id='flex'>
+                <div class='box'>
+                <h2>1</h2>
+                </div>
+                <div class='box'>
+                <h2>2</h2>
+                </div>
+                <div class='box'>
+                <h2>3</h2>
+                </div>
+            </div>
+            <h1>Display: Block</h1>
+            <div class='container' id='block'>
+                <div class='box'>
+                <h2>1</h2>
+                </div>
+                <div class='box'>
+                <h2>2</h2>
+                </div>
+                <div class='box'>
+                <h2>3</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
